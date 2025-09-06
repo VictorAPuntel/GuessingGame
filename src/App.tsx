@@ -90,7 +90,7 @@ export default function App() {
         return endGame('Que pena, você usou todas as tentativas')
       }
     }, 200)
-  }, [score, lettersUsed.length, challenge, endGame])
+  }, [score, lettersUsed.length])
 
   if (!challenge) {
     return
